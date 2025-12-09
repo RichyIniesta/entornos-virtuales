@@ -29,7 +29,7 @@ const cube = new THREE.Mesh( geometry, material );
 //scene.add( cube );
 
 const gltfLoader = new GLTFLoader()
-const url = './gltf/minimap-street.gltf';
+const url = './gltf/monkey.gltf';
 gltfLoader.load(url, (gltf) => {
   const root = gltf.scene;
   scene.add(root);
